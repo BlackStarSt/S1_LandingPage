@@ -1,0 +1,29 @@
+.corpo {
+    background: whitesmoke;
+}
+
+.principal {
+    padding: 20px 0;
+}
+
+.container_historia {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0 20px 0;
+    border-bottom: 3px solid navy;
+}
+
+.principal_imagem {
+    border-radius: 100%;
+    border: 5px solid navy;
+}
+
+.historia {
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.p_historia {
+    font-size: 20px;
+}
