@@ -1,3 +1,51 @@
 .corpo {
     height: 100vh;
 }
+
+.principal, .curriculo {
+    height: 93vh;
+}
+
+.curriculo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.curriculo_nome {
+    font-size: 60px;   
+}
+
+.curriculo_dados {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.tabela_titulo {
+    font-size: 48px;
+    padding: 15px;
+}
+
+table {
+    box-shadow: 10px 10px greenyellow;
+}
+
+table, thead {
+    border: 1px solid navy;
+    width: 900px;
+}
+
+thead {
+    background: navy;
+    color: white;
+}
+
+tr:nth-child(2) {
+    border: 1px solid navy;
+}
+
+td, th {
+    padding: 5px;
+}
