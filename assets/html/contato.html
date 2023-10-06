@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/curriculo.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/contato.css">
+    <title>Contato | Sthefany AlvesS</title>
 </head>
 <body> 
     <header class="cabecalho">
@@ -22,51 +22,55 @@
             <p><a href="./contato.html" class="links">Contato</a></p>
         </div>
     </header>
-     <form action="#" class="formulario">
-        <div class="container_input">
-            <input type="text" class="input" placeholder="Nome completo"
-            onfocus="this.placeholder=''"
-            onblur="this.placeholder='Nome completo'">
-            <label for="Nome completo" class="label">Nome completo</label>
-        </div>
-        <div class="container_input">
-            <input type="tel" class="input" placeholder="Telefone"
-            onfocus="this.placeholder=''"
-            onblur="this.placeholder='Telefone'">
-            <label for="Telefone" class="label">Telefone</label>
-        </div>
-        <div class="container_input">
-            <input type="email" class="input" placeholder="E-mail"
-            onfocus="this.placeholder=''"
-            onblur="this.placeholder='E-mail'">
-            <label for="E-mail" class="label">E-mail</label>
-        </div>
-        <div class="container_input">
-            <input type="radio" class="radio">
-            <label for="" class="label_radio">Pessoa Fisíca</label>
-            <input type="radio" class="radio">
-            <label for="" class="label_radio">Pessoa Jurídica</label>
-        </div>
-        <div class="container_input">
-            <input type="text" class="input" placeholder="Melhor horário para Contato"
-            onfocus="this.placeholder=''"
-            onblur="this.placeholder='Melhor horário para Contato'">
-            <label for="Melhor horário para Contato" class="label">Melhor horário para Contato</label>
-        </div>
-        <div class="container_input">
-            <label for="" class="label_radio">Serviço A</label>
-            <input type="radio" class="radio">
-            <label for="" class="label_radio">Serviço B</label>
-            <input type="radio" class="radio">
-            <label for="" class="label_radio">Serviço C</label>
-            <input type="radio" class="radio">
-        </div>
-        <div class="container_input">
-            <input type="text" class="input" placeholder="Descrição"
-            onfocus="this.placeholder=''"
-            onblur="this.placeholder='Descrição'">
-            <label for="Descrição" class="label">Descrição</label>
-        </div>
-    </form>
+    <main class="principal">
+        <h1 class="principal_texto">Entre em contato conosco...</h1>
+        <form action="#" class="formulario">
+            <div class="container_input">
+                <input type="text" class="input" placeholder="Nome completo"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Nome completo'" required>
+                <label for="Nome completo" class="label">Nome completo</label>
+            </div>
+            <div class="container_input">
+                <input type="tel" class="input" placeholder="Telefone"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Telefone'" required>
+                <label for="Telefone" class="label">Telefone</label>
+            </div>
+            <div class="container_input">
+                <input type="email" class="input" placeholder="E-mail"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='E-mail'" required>
+                <label for="E-mail" class="label">E-mail</label>
+            </div>
+            <div class="container_input">
+                <input type="radio" name="selecao" class="radio" id="pf" required>
+                <label for="pf" class="label_radio">Pessoa Fisíca</label>
+                <input type="radio" name="selecao" class="radio" id="pj">
+                <label for="pj" class="label_radio">Pessoa Jurídica</label>
+            </div>
+            <div class="container_input">
+                <input type="time" class="input" placeholder="Melhor horário para Contato"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Melhor horário para Contato'" required>
+                <label for="Melhor horário para Contato" class="label">Melhor horário para Contato</label>
+            </div>
+            <div class="container_input">
+                <input type="radio" name="selecao" class="radio" id="a" required>
+                <label for="a" class="label_radio">Serviço A</label>
+                <input type="radio" name="selecao" class="radio" id="b">
+                <label for="b" class="label_radio">Serviço B</label>
+                <input type="radio" name="selecao" class="radio" id="c">
+                <label for="c" class="label_radio">Serviço C</label>
+            </div>
+            <div class="container_input">
+                <input type="text" class="input" placeholder="Descrição"
+                onfocus="this.placeholder=''"
+                onblur="this.placeholder='Descrição'" required>
+                <label for="Descrição" class="label">Descrição</label>
+            </div>
+        </form>
+        <button class="btn" type="submit">Enviar</button>
+    </main>
 </body>
 </html>

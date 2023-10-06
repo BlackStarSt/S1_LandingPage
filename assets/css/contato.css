@@ -1,15 +1,20 @@
-.rodape {
-    border-top: 3px solid navy;
-    width: 100%;
-    margin: auto;
-    bottom: 0;
+.principal {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.principal_texto {
+    font-size: 56px;
+    margin: 50px;
+    border-bottom: 3px solid navy;
+    padding: 3px;
 }
 
 .formulario {
-    height: 280px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -20,13 +25,16 @@
 }
 
 .input {
+    border: none;
     border-radius: 5px;
-    height: 30px;
-    width: 360px;
+    border-bottom: 1px solid navy;
+    height: 50px;
+    width: 400px;
+    font-size: 16px;
+    outline: 0;
     position: relative;
     z-index: 2;
     padding: 0 5px;
-    border: 1px solid navy;
 }
 
 .label {
@@ -36,9 +44,28 @@
     top: 0; bottom: 0; left: 0; right: 0;
     font-size: 12px;
     color: navy;
+    padding: 0 10px;
 }
 
 .input:focus + .label,
 .input:not(:placeholder-shown) + .label {
     z-index: 2;
+}
+
+.input:hover {
+    border-bottom: 1px solid greenyellow
+}
+
+.erro {
+    border-bottom: 1px solid red;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background: greenyellow;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
 }
