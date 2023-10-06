@@ -34,7 +34,7 @@ table {
 
 table, thead {
     border: 1px solid navy;
-    width: 900px;
+    width: 1200px;
 }
 
 thead {
@@ -42,10 +42,20 @@ thead {
     color: white;
 }
 
-tr:nth-child(2) {
+.linha {
+    height: 80px;
+}
+
+tr, .coluna{
     border: 1px solid navy;
+    column-span: 3;
 }
 
 td, th {
-    padding: 5px;
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
 }
