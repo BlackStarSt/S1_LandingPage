@@ -1,0 +1,49 @@
+.corpo {
+    text-align: center;
+}
+
+.principal {
+    padding: 20px;
+}
+
+.github {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 72px;
+}
+
+.container_link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    margin: 30px;
+}
+
+.github_icon {
+    height: 50px;
+    border: 3px solid black;
+}
+
+.link {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 2px;
+    border-bottom: 3px solid navy;
+}
+
+.link:hover {
+    border-bottom:3px solid greenyellow;
+}
+
+.github_img {
+    width: 1000px;
+    border: 3px solid navy;
+    box-shadow: 10px 10px greenyellow;
+}
