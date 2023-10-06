@@ -2,8 +2,9 @@
     height: 100vh;
 }
 
-.principal, .curriculo {
+.principal {
     height: 93vh;
+    padding: 20px 0;
 }
 
 .curriculo {
@@ -12,6 +13,14 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
+}
+
+div:nth-child(n-1) {
+    margin: 10px;
+}
+
+.infos {
+    padding: 5px;
 }
 
 .curriculo_nome {
@@ -52,7 +61,7 @@ tr, .coluna{
 }
 
 td, th {
-    padding: 10px;
+    padding: 5px;
 }
 
 td {
