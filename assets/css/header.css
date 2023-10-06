@@ -22,3 +22,7 @@
 .links:hover {
     color: greenyellow;
 }
+
+body {
+    background: #F5F5F5;
+}
