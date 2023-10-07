@@ -6,6 +6,10 @@
     align-items: center;
     color: white;
     box-shadow: 0 5px greenyellow;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
 }
 
 .cabecalho_link {
@@ -25,4 +29,8 @@
 
 body {
     background: #F5F5F5;
+}
+
+.principal {
+    padding: 60px 0;
 }
