@@ -1,17 +1,21 @@
-.corpo {
-    background: whitesmoke;
-}
-
 .principal {
     padding: 20px 0;
+    height: 93vh;
+}
+
+.dados {
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .container_historia {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 0 0 20px 0;
-    border-bottom: 3px solid navy;
+    width: 60vw;
+    justify-content: space-between;
 }
 
 .principal_imagem {
@@ -26,4 +30,35 @@
 
 .p_historia {
     font-size: 20px;
+}
+
+table {
+    box-shadow: 10px 10px greenyellow;
+}
+
+table, thead {
+    border: 1px solid navy;
+    width: 1200px;
+}
+
+thead {
+    background: navy;
+    color: white;
+}
+
+tr {
+    border: 1px solid navy;
+}
+
+td, th {
+    padding: 5px;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container_materia td {
+    padding: 10px;
 }
